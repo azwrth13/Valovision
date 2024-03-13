@@ -1,0 +1,31 @@
+.strategies-list {
+    background-color: var(--sage-green);
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.strategies-list .ant-list-item {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 2px 4px var(--smoke-grey);
+    transition: all 0.2s ease;
+  }
+  
+  .strategies-list .ant-list-item:hover {
+    box-shadow: 0 4px 8px var(--highlight-blue);
+  }
+  
+  .strategies-list .ant-list-item-meta-title a {
+    color: var(--phoenix-yellow);
+  }
+  
+  .strategies-list .ant-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .description-text {
+    color: var(--text-dark);
+  }

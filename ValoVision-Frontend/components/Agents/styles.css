@@ -1,0 +1,69 @@
+/* AgentUtilityPage Styling */
+
+
+.ant-tabs-nav .ant-tabs-nav-list .ant-tabs-tab {
+    color: var(--text-light);
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--highlight-blue);
+}
+
+.agent-utility-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80vh;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.add-new-button-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(240px, 1fr));
+    gap: 75px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .agent-utility-container {
+      align-items: normal;
+    }
+}
+
+
+/* Item Card Styling */
+.item-card {
+    height: 300px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-image {
+    max-height: 150px;
+    max-width: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.item-card {
+    transition: all 0.2s ease;
+}
+  
+.item-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 8px var(--sage-green); 
+}
+
+

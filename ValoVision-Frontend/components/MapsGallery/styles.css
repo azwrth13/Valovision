@@ -1,0 +1,28 @@
+.mc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.card-title {
+  color: var(--text-light);
+  padding-top: 20px;
+  text-align: center;
+}
+
+.map-card .button-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 55px;
+}
+
+.upload-outline{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 30vh; /* Full viewport height */
+}

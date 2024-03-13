@@ -1,0 +1,7 @@
+.modal-content h1 {
+    color: var(--sage-green);
+}
+
+.modal-content p {
+    font-family: var(--font-primary);
+}

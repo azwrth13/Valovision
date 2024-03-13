@@ -1,0 +1,55 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Exo+2:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Root variables */
+:root {
+    /* Primary Color */
+    --radiant-red: #FF4655;
+
+    /* Secondary Colors */
+    --agent-orange: #F7B05B;
+    --phoenix-yellow: #FFC145;
+    --sage-green: #00D1A3;
+
+    /* Background Colors */
+    --valorant-dark: #0F1923;
+    --smoke-grey: #2A2F3A;
+
+    /* Text Colors */
+    --text-light: #FFFFFF;
+    --text-dark: #1E1E1E;
+
+    /* Utility Colors */
+    --border-silver: #707070;
+    --highlight-blue: #1A73E8;
+
+    /* Fonts */
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Exo 2', sans-serif;
+}
+
+body {
+    background-color: var(--valorant-dark);
+    color: var(--text-light);
+    font-family: var(--font-primary);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-secondary);
+}
+
+
+/* We should adjust the styling here so that the main content has some padding/spacing already. This way
+we don't need to keep adding padding at an individual component level  TODO */
+.main-content {
+    padding-bottom: 100px;
+    padding: 20px;
+    min-height: 100vh;
+}
+

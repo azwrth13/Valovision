@@ -1,0 +1,90 @@
+/* Global Styles */
+
+
+/* StrategyPlanner Styles */
+.strategy-planner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* StrategyCanvas Styles */
+.strategy-canvas {
+    flex-grow: 0;
+    padding-right: 20px;
+}
+
+/* StrategyToolBar Styles */
+.strategy-toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 250px;
+    
+}
+
+/* AgentSelector Styles */
+.item-select {
+    transition: all 0.3s ease;
+}
+
+.item-select:hover {
+    transform: scale(1.15);
+}
+
+.item-icon-selected {
+    box-shadow: 0 0 15px 5px var(--highlight-blue);
+}
+
+.avatar-divider {
+    margin-right: 8px !important;
+    padding-right: 8px;
+}
+
+/* StrategyTools Styles */
+.strategy-tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* StrategyDetailSection Styles */
+.strategy-detail-container input,
+.strategy-detail-container textarea {
+    background-color: var(--smoke-grey);
+    border-color: var(--border-silver);
+    color: var(--text-light);
+    font-family: var(--font-primary);
+  }
+
+  .strategy-detail-container input:focus,
+  .strategy-detail-container textarea:focus {
+    border-color: var(--highlight-blue);
+    box-shadow: 0 0 0 2px var(--highlight-blue);
+    background-color: var(--smoke-grey);
+  }
+
+  .strategy-detail-container input:hover,
+  .strategy-detail-container textarea:hover {
+    border-color: var(--highlight-blue);
+    box-shadow: 0 0 0 2px var(--highlight-blue);
+    background-color: var(--smoke-grey);
+  }
+  
+
+  .strategy-detail-container input::placeholder,
+  .strategy-detail-container textarea::placeholder {
+    color: var(--text-light);
+  }
+  
+
+  .strategy-detail-container {
+    padding: 10px;
+  }
+  
+  .strategy-detail-container > *:not(:last-child) {
+    margin-bottom: 12px;
+  }
